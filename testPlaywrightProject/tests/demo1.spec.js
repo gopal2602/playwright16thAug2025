@@ -18,7 +18,7 @@ test('Fourth arrow Playwright test', async({})=>{
     console.log("Fourth arrow test")
 })
 
-test.only('Fifth arrow Playwright test', async({})=>{
+test('Fifth arrow Playwright test', async({})=>{
     console.log("Fifth arrow test using only tag")
 })
 
