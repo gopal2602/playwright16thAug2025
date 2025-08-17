@@ -11,6 +11,5 @@ test('Navigate URL and Validate Test', async({page})=>{
  
     await expect(page).toHaveTitle('OrangeHRM')
     await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
- 
 })
  
